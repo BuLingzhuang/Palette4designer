@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="146.25dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/colorPrimaryAlpha"
+                    android:src="@mipmap/ic_launcher_foreground"/>
+
+                <TextView
+                    android:id="@+id/btn_Dominant"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/btn_bg"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="DominantColor（Null）"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/btn_Vibrant"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/btn_bg"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="VibrantColor"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/btn_DarkVibrant"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/btn_bg"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="DarkVibrantColor"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/btn_LightVibrant"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/btn_bg"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="LightVibrantColor"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/btn_Muted"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/btn_bg"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="MutedColor"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/btn_DarkMuted"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/btn_bg"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="DarkMutedColor"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/btn_LightMuted"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/btn_bg"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="LightMutedColor"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
